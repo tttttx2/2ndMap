@@ -35,7 +35,7 @@
 29-->/home/toni/Documents/git/tttttx2/2ndMap/Application/src/main/AndroidManifest.xml:27:22-65
 30
 31    <application
-31-->/home/toni/Documents/git/tttttx2/2ndMap/Application/src/main/AndroidManifest.xml:29:5-83:19
+31-->/home/toni/Documents/git/tttttx2/2ndMap/Application/src/main/AndroidManifest.xml:29:5-85:19
 32        android:allowBackup="true"
 32-->/home/toni/Documents/git/tttttx2/2ndMap/Application/src/main/AndroidManifest.xml:30:9-35
 33        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
@@ -51,7 +51,7 @@
 39        android:theme="@style/AppTheme" >
 39-->/home/toni/Documents/git/tttttx2/2ndMap/Application/src/main/AndroidManifest.xml:33:9-40
 40        <activity
-40-->/home/toni/Documents/git/tttttx2/2ndMap/Application/src/main/AndroidManifest.xml:38:9-75:20
+40-->/home/toni/Documents/git/tttttx2/2ndMap/Application/src/main/AndroidManifest.xml:38:9-77:20
 41            android:name="ch.zeromail.a2ndmap.bluetoothchat.MainActivity"
 41-->/home/toni/Documents/git/tttttx2/2ndMap/Application/src/main/AndroidManifest.xml:39:13-41
 42            android:configChanges="orientation|keyboardHidden"
@@ -61,7 +61,7 @@
 44            android:launchMode="singleTask" >
 44-->/home/toni/Documents/git/tttttx2/2ndMap/Application/src/main/AndroidManifest.xml:42:13-44
 45            <intent-filter>
-45-->/home/toni/Documents/git/tttttx2/2ndMap/Application/src/main/AndroidManifest.xml:43:13-46:29
+45-->/home/toni/Documents/git/tttttx2/2ndMap/Application/src/main/AndroidManifest.xml:43:13-48:29
 46                <action android:name="android.intent.action.MAIN" />
 46-->/home/toni/Documents/git/tttttx2/2ndMap/Application/src/main/AndroidManifest.xml:44:17-69
 46-->/home/toni/Documents/git/tttttx2/2ndMap/Application/src/main/AndroidManifest.xml:44:25-66
@@ -69,92 +69,98 @@
 48                <category android:name="android.intent.category.LAUNCHER" />
 48-->/home/toni/Documents/git/tttttx2/2ndMap/Application/src/main/AndroidManifest.xml:45:17-77
 48-->/home/toni/Documents/git/tttttx2/2ndMap/Application/src/main/AndroidManifest.xml:45:27-74
-49            </intent-filter>
-50            <intent-filter>
-50-->/home/toni/Documents/git/tttttx2/2ndMap/Application/src/main/AndroidManifest.xml:47:13-52:29
-51                <action android:name="android.intent.action.VIEW" />
-51-->/home/toni/Documents/git/tttttx2/2ndMap/Application/src/main/AndroidManifest.xml:48:17-68
-51-->/home/toni/Documents/git/tttttx2/2ndMap/Application/src/main/AndroidManifest.xml:48:25-66
-52
-53                <category android:name="android.intent.category.DEFAULT" />
-53-->/home/toni/Documents/git/tttttx2/2ndMap/Application/src/main/AndroidManifest.xml:49:17-75
-53-->/home/toni/Documents/git/tttttx2/2ndMap/Application/src/main/AndroidManifest.xml:49:27-73
-54                <category android:name="android.intent.category.BROWSABLE" />
-54-->/home/toni/Documents/git/tttttx2/2ndMap/Application/src/main/AndroidManifest.xml:50:17-77
-54-->/home/toni/Documents/git/tttttx2/2ndMap/Application/src/main/AndroidManifest.xml:50:27-75
-55
-56                <data android:scheme="google.navigation" />
-56-->/home/toni/Documents/git/tttttx2/2ndMap/Application/src/main/AndroidManifest.xml:51:17-59
-56-->/home/toni/Documents/git/tttttx2/2ndMap/Application/src/main/AndroidManifest.xml:51:23-57
-57            </intent-filter>
-58            <intent-filter>
-58-->/home/toni/Documents/git/tttttx2/2ndMap/Application/src/main/AndroidManifest.xml:53:13-60:29
-59                <action android:name="android.intent.action.VIEW" />
-59-->/home/toni/Documents/git/tttttx2/2ndMap/Application/src/main/AndroidManifest.xml:48:17-68
-59-->/home/toni/Documents/git/tttttx2/2ndMap/Application/src/main/AndroidManifest.xml:48:25-66
-60
-61                <category android:name="android.intent.category.DEFAULT" />
-61-->/home/toni/Documents/git/tttttx2/2ndMap/Application/src/main/AndroidManifest.xml:49:17-75
-61-->/home/toni/Documents/git/tttttx2/2ndMap/Application/src/main/AndroidManifest.xml:49:27-73
-62                <category android:name="android.intent.category.BROWSABLE" />
-62-->/home/toni/Documents/git/tttttx2/2ndMap/Application/src/main/AndroidManifest.xml:50:17-77
-62-->/home/toni/Documents/git/tttttx2/2ndMap/Application/src/main/AndroidManifest.xml:50:27-75
-63
-64                <data
-64-->/home/toni/Documents/git/tttttx2/2ndMap/Application/src/main/AndroidManifest.xml:51:17-59
-65                    android:host="maps.google.com"
-65-->/home/toni/Documents/git/tttttx2/2ndMap/Application/src/main/AndroidManifest.xml:58:21-51
-66                    android:scheme="https" />
-66-->/home/toni/Documents/git/tttttx2/2ndMap/Application/src/main/AndroidManifest.xml:51:23-57
-67            </intent-filter>
-68            <intent-filter>
-68-->/home/toni/Documents/git/tttttx2/2ndMap/Application/src/main/AndroidManifest.xml:61:13-68:29
-69                <action android:name="android.intent.action.VIEW" />
-69-->/home/toni/Documents/git/tttttx2/2ndMap/Application/src/main/AndroidManifest.xml:48:17-68
-69-->/home/toni/Documents/git/tttttx2/2ndMap/Application/src/main/AndroidManifest.xml:48:25-66
-70
-71                <category android:name="android.intent.category.DEFAULT" />
-71-->/home/toni/Documents/git/tttttx2/2ndMap/Application/src/main/AndroidManifest.xml:49:17-75
-71-->/home/toni/Documents/git/tttttx2/2ndMap/Application/src/main/AndroidManifest.xml:49:27-73
-72                <category android:name="android.intent.category.BROWSABLE" />
-72-->/home/toni/Documents/git/tttttx2/2ndMap/Application/src/main/AndroidManifest.xml:50:17-77
-72-->/home/toni/Documents/git/tttttx2/2ndMap/Application/src/main/AndroidManifest.xml:50:27-75
-73
-74                <data
-74-->/home/toni/Documents/git/tttttx2/2ndMap/Application/src/main/AndroidManifest.xml:51:17-59
-75                    android:host="maps.google.com"
-75-->/home/toni/Documents/git/tttttx2/2ndMap/Application/src/main/AndroidManifest.xml:58:21-51
-76                    android:scheme="http" />
-76-->/home/toni/Documents/git/tttttx2/2ndMap/Application/src/main/AndroidManifest.xml:51:23-57
-77            </intent-filter>
-78            <intent-filter>
-78-->/home/toni/Documents/git/tttttx2/2ndMap/Application/src/main/AndroidManifest.xml:69:13-74:29
-79                <action android:name="android.intent.action.VIEW" />
-79-->/home/toni/Documents/git/tttttx2/2ndMap/Application/src/main/AndroidManifest.xml:48:17-68
-79-->/home/toni/Documents/git/tttttx2/2ndMap/Application/src/main/AndroidManifest.xml:48:25-66
-80
-81                <category android:name="android.intent.category.DEFAULT" />
-81-->/home/toni/Documents/git/tttttx2/2ndMap/Application/src/main/AndroidManifest.xml:49:17-75
-81-->/home/toni/Documents/git/tttttx2/2ndMap/Application/src/main/AndroidManifest.xml:49:27-73
-82                <category android:name="android.intent.category.BROWSABLE" />
-82-->/home/toni/Documents/git/tttttx2/2ndMap/Application/src/main/AndroidManifest.xml:50:17-77
-82-->/home/toni/Documents/git/tttttx2/2ndMap/Application/src/main/AndroidManifest.xml:50:27-75
-83
-84                <data android:scheme="geo" />
-84-->/home/toni/Documents/git/tttttx2/2ndMap/Application/src/main/AndroidManifest.xml:51:17-59
-84-->/home/toni/Documents/git/tttttx2/2ndMap/Application/src/main/AndroidManifest.xml:51:23-57
-85            </intent-filter>
-86        </activity>
-87        <activity
-87-->/home/toni/Documents/git/tttttx2/2ndMap/Application/src/main/AndroidManifest.xml:77:9-81:64
-88            android:name="ch.zeromail.a2ndmap.bluetoothchat.DeviceListActivity"
-88-->/home/toni/Documents/git/tttttx2/2ndMap/Application/src/main/AndroidManifest.xml:78:13-47
-89            android:configChanges="orientation|keyboardHidden"
-89-->/home/toni/Documents/git/tttttx2/2ndMap/Application/src/main/AndroidManifest.xml:79:13-63
-90            android:label="@string/select_device"
-90-->/home/toni/Documents/git/tttttx2/2ndMap/Application/src/main/AndroidManifest.xml:80:13-50
-91            android:theme="@android:style/Theme.Holo.Dialog" />
-91-->/home/toni/Documents/git/tttttx2/2ndMap/Application/src/main/AndroidManifest.xml:81:13-61
-92    </application>
-93
-94</manifest>
+49                <category android:name="android.intent.category.DEFAULT" />
+49-->/home/toni/Documents/git/tttttx2/2ndMap/Application/src/main/AndroidManifest.xml:46:17-76
+49-->/home/toni/Documents/git/tttttx2/2ndMap/Application/src/main/AndroidManifest.xml:46:27-73
+50                <category android:name="android.intent.category.HOME" />
+50-->/home/toni/Documents/git/tttttx2/2ndMap/Application/src/main/AndroidManifest.xml:47:17-73
+50-->/home/toni/Documents/git/tttttx2/2ndMap/Application/src/main/AndroidManifest.xml:47:27-70
+51            </intent-filter>
+52            <intent-filter>
+52-->/home/toni/Documents/git/tttttx2/2ndMap/Application/src/main/AndroidManifest.xml:49:13-54:29
+53                <action android:name="android.intent.action.VIEW" />
+53-->/home/toni/Documents/git/tttttx2/2ndMap/Application/src/main/AndroidManifest.xml:50:17-68
+53-->/home/toni/Documents/git/tttttx2/2ndMap/Application/src/main/AndroidManifest.xml:50:25-66
+54
+55                <category android:name="android.intent.category.DEFAULT" />
+55-->/home/toni/Documents/git/tttttx2/2ndMap/Application/src/main/AndroidManifest.xml:46:17-76
+55-->/home/toni/Documents/git/tttttx2/2ndMap/Application/src/main/AndroidManifest.xml:46:27-73
+56                <category android:name="android.intent.category.BROWSABLE" />
+56-->/home/toni/Documents/git/tttttx2/2ndMap/Application/src/main/AndroidManifest.xml:52:17-77
+56-->/home/toni/Documents/git/tttttx2/2ndMap/Application/src/main/AndroidManifest.xml:52:27-75
+57
+58                <data android:scheme="google.navigation" />
+58-->/home/toni/Documents/git/tttttx2/2ndMap/Application/src/main/AndroidManifest.xml:53:17-59
+58-->/home/toni/Documents/git/tttttx2/2ndMap/Application/src/main/AndroidManifest.xml:53:23-57
+59            </intent-filter>
+60            <intent-filter>
+60-->/home/toni/Documents/git/tttttx2/2ndMap/Application/src/main/AndroidManifest.xml:55:13-62:29
+61                <action android:name="android.intent.action.VIEW" />
+61-->/home/toni/Documents/git/tttttx2/2ndMap/Application/src/main/AndroidManifest.xml:50:17-68
+61-->/home/toni/Documents/git/tttttx2/2ndMap/Application/src/main/AndroidManifest.xml:50:25-66
+62
+63                <category android:name="android.intent.category.DEFAULT" />
+63-->/home/toni/Documents/git/tttttx2/2ndMap/Application/src/main/AndroidManifest.xml:46:17-76
+63-->/home/toni/Documents/git/tttttx2/2ndMap/Application/src/main/AndroidManifest.xml:46:27-73
+64                <category android:name="android.intent.category.BROWSABLE" />
+64-->/home/toni/Documents/git/tttttx2/2ndMap/Application/src/main/AndroidManifest.xml:52:17-77
+64-->/home/toni/Documents/git/tttttx2/2ndMap/Application/src/main/AndroidManifest.xml:52:27-75
+65
+66                <data
+66-->/home/toni/Documents/git/tttttx2/2ndMap/Application/src/main/AndroidManifest.xml:53:17-59
+67                    android:host="maps.google.com"
+67-->/home/toni/Documents/git/tttttx2/2ndMap/Application/src/main/AndroidManifest.xml:60:21-51
+68                    android:scheme="https" />
+68-->/home/toni/Documents/git/tttttx2/2ndMap/Application/src/main/AndroidManifest.xml:53:23-57
+69            </intent-filter>
+70            <intent-filter>
+70-->/home/toni/Documents/git/tttttx2/2ndMap/Application/src/main/AndroidManifest.xml:63:13-70:29
+71                <action android:name="android.intent.action.VIEW" />
+71-->/home/toni/Documents/git/tttttx2/2ndMap/Application/src/main/AndroidManifest.xml:50:17-68
+71-->/home/toni/Documents/git/tttttx2/2ndMap/Application/src/main/AndroidManifest.xml:50:25-66
+72
+73                <category android:name="android.intent.category.DEFAULT" />
+73-->/home/toni/Documents/git/tttttx2/2ndMap/Application/src/main/AndroidManifest.xml:46:17-76
+73-->/home/toni/Documents/git/tttttx2/2ndMap/Application/src/main/AndroidManifest.xml:46:27-73
+74                <category android:name="android.intent.category.BROWSABLE" />
+74-->/home/toni/Documents/git/tttttx2/2ndMap/Application/src/main/AndroidManifest.xml:52:17-77
+74-->/home/toni/Documents/git/tttttx2/2ndMap/Application/src/main/AndroidManifest.xml:52:27-75
+75
+76                <data
+76-->/home/toni/Documents/git/tttttx2/2ndMap/Application/src/main/AndroidManifest.xml:53:17-59
+77                    android:host="maps.google.com"
+77-->/home/toni/Documents/git/tttttx2/2ndMap/Application/src/main/AndroidManifest.xml:60:21-51
+78                    android:scheme="http" />
+78-->/home/toni/Documents/git/tttttx2/2ndMap/Application/src/main/AndroidManifest.xml:53:23-57
+79            </intent-filter>
+80            <intent-filter>
+80-->/home/toni/Documents/git/tttttx2/2ndMap/Application/src/main/AndroidManifest.xml:71:13-76:29
+81                <action android:name="android.intent.action.VIEW" />
+81-->/home/toni/Documents/git/tttttx2/2ndMap/Application/src/main/AndroidManifest.xml:50:17-68
+81-->/home/toni/Documents/git/tttttx2/2ndMap/Application/src/main/AndroidManifest.xml:50:25-66
+82
+83                <category android:name="android.intent.category.DEFAULT" />
+83-->/home/toni/Documents/git/tttttx2/2ndMap/Application/src/main/AndroidManifest.xml:46:17-76
+83-->/home/toni/Documents/git/tttttx2/2ndMap/Application/src/main/AndroidManifest.xml:46:27-73
+84                <category android:name="android.intent.category.BROWSABLE" />
+84-->/home/toni/Documents/git/tttttx2/2ndMap/Application/src/main/AndroidManifest.xml:52:17-77
+84-->/home/toni/Documents/git/tttttx2/2ndMap/Application/src/main/AndroidManifest.xml:52:27-75
+85
+86                <data android:scheme="geo" />
+86-->/home/toni/Documents/git/tttttx2/2ndMap/Application/src/main/AndroidManifest.xml:53:17-59
+86-->/home/toni/Documents/git/tttttx2/2ndMap/Application/src/main/AndroidManifest.xml:53:23-57
+87            </intent-filter>
+88        </activity>
+89        <activity
+89-->/home/toni/Documents/git/tttttx2/2ndMap/Application/src/main/AndroidManifest.xml:79:9-83:64
+90            android:name="ch.zeromail.a2ndmap.bluetoothchat.DeviceListActivity"
+90-->/home/toni/Documents/git/tttttx2/2ndMap/Application/src/main/AndroidManifest.xml:80:13-47
+91            android:configChanges="orientation|keyboardHidden"
+91-->/home/toni/Documents/git/tttttx2/2ndMap/Application/src/main/AndroidManifest.xml:81:13-63
+92            android:label="@string/select_device"
+92-->/home/toni/Documents/git/tttttx2/2ndMap/Application/src/main/AndroidManifest.xml:82:13-50
+93            android:theme="@android:style/Theme.Holo.Dialog" />
+93-->/home/toni/Documents/git/tttttx2/2ndMap/Application/src/main/AndroidManifest.xml:83:13-61
+94    </application>
+95
+96</manifest>

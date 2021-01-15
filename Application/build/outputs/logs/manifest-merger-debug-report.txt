@@ -1,8 +1,8 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /home/toni/Documents/git/tttttx2/2ndMap/Application/src/main/AndroidManifest.xml:17:1-85:12
-INJECTED from /home/toni/Documents/git/tttttx2/2ndMap/Application/src/main/AndroidManifest.xml:17:1-85:12
-INJECTED from /home/toni/Documents/git/tttttx2/2ndMap/Application/src/main/AndroidManifest.xml:17:1-85:12
+ADDED from /home/toni/Documents/git/tttttx2/2ndMap/Application/src/main/AndroidManifest.xml:17:1-87:12
+INJECTED from /home/toni/Documents/git/tttttx2/2ndMap/Application/src/main/AndroidManifest.xml:17:1-87:12
+INJECTED from /home/toni/Documents/git/tttttx2/2ndMap/Application/src/main/AndroidManifest.xml:17:1-87:12
 MERGED from [androidx.appcompat:appcompat:1.1.0] /home/toni/.gradle/caches/transforms-2/files-2.1/37ec02f661e3547c5499ecdfd9f3cd1f/appcompat-1.1.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.fragment:fragment:1.1.0] /home/toni/.gradle/caches/transforms-2/files-2.1/add2bdb41de46d90e5d3bd4e75929820/fragment-1.1.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.appcompat:appcompat-resources:1.1.0] /home/toni/.gradle/caches/transforms-2/files-2.1/dd07e922b5233b833d82ee834e6becf7/appcompat-resources-1.1.0/AndroidManifest.xml:17:1-24:12
@@ -23,8 +23,8 @@ MERGED from [androidx.interpolator:interpolator:1.0.0] /home/toni/.gradle/caches
 MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /home/toni/.gradle/caches/transforms-2/files-2.1/420f294924962582b4c42c622af43461/lifecycle-livedata-2.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /home/toni/.gradle/caches/transforms-2/files-2.1/66e997bde0b6ece28f7fd36f5f4a1584/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.arch.core:core-runtime:2.0.0] /home/toni/.gradle/caches/transforms-2/files-2.1/8787729f29cf7add1bc29c81caccddfd/core-runtime-2.0.0/AndroidManifest.xml:17:1-22:12
-INJECTED from /home/toni/Documents/git/tttttx2/2ndMap/Application/src/main/AndroidManifest.xml:17:1-85:12
-INJECTED from /home/toni/Documents/git/tttttx2/2ndMap/Application/src/main/AndroidManifest.xml:17:1-85:12
+INJECTED from /home/toni/Documents/git/tttttx2/2ndMap/Application/src/main/AndroidManifest.xml:17:1-87:12
+INJECTED from /home/toni/Documents/git/tttttx2/2ndMap/Application/src/main/AndroidManifest.xml:17:1-87:12
 	package
 		ADDED from /home/toni/Documents/git/tttttx2/2ndMap/Application/src/main/AndroidManifest.xml:20:5-48
 	android:versionName
@@ -48,7 +48,7 @@ ADDED from /home/toni/Documents/git/tttttx2/2ndMap/Application/src/main/AndroidM
 	android:name
 		ADDED from /home/toni/Documents/git/tttttx2/2ndMap/Application/src/main/AndroidManifest.xml:27:22-65
 application
-ADDED from /home/toni/Documents/git/tttttx2/2ndMap/Application/src/main/AndroidManifest.xml:29:5-83:19
+ADDED from /home/toni/Documents/git/tttttx2/2ndMap/Application/src/main/AndroidManifest.xml:29:5-85:19
 MERGED from [androidx.core:core:1.1.0] /home/toni/.gradle/caches/transforms-2/files-2.1/c527b78844be871c44103f6f45a963fb/core-1.1.0/AndroidManifest.xml:24:5-89
 MERGED from [androidx.core:core:1.1.0] /home/toni/.gradle/caches/transforms-2/files-2.1/c527b78844be871c44103f6f45a963fb/core-1.1.0/AndroidManifest.xml:24:5-89
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /home/toni/.gradle/caches/transforms-2/files-2.1/c9c8616d74aa0ab3eb457d24b669c685/versionedparcelable-1.1.0/AndroidManifest.xml:24:5-25:19
@@ -68,7 +68,7 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /home/toni/
 	android:theme
 		ADDED from /home/toni/Documents/git/tttttx2/2ndMap/Application/src/main/AndroidManifest.xml:33:9-40
 activity#ch.zeromail.a2ndmap.bluetoothchat.MainActivity
-ADDED from /home/toni/Documents/git/tttttx2/2ndMap/Application/src/main/AndroidManifest.xml:38:9-75:20
+ADDED from /home/toni/Documents/git/tttttx2/2ndMap/Application/src/main/AndroidManifest.xml:38:9-77:20
 	android:label
 		ADDED from /home/toni/Documents/git/tttttx2/2ndMap/Application/src/main/AndroidManifest.xml:41:13-45
 	android:launchMode
@@ -77,8 +77,8 @@ ADDED from /home/toni/Documents/git/tttttx2/2ndMap/Application/src/main/AndroidM
 		ADDED from /home/toni/Documents/git/tttttx2/2ndMap/Application/src/main/AndroidManifest.xml:40:13-63
 	android:name
 		ADDED from /home/toni/Documents/git/tttttx2/2ndMap/Application/src/main/AndroidManifest.xml:39:13-41
-intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /home/toni/Documents/git/tttttx2/2ndMap/Application/src/main/AndroidManifest.xml:43:13-46:29
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.DEFAULT+category:name:android.intent.category.HOME+category:name:android.intent.category.LAUNCHER
+ADDED from /home/toni/Documents/git/tttttx2/2ndMap/Application/src/main/AndroidManifest.xml:43:13-48:29
 action#android.intent.action.MAIN
 ADDED from /home/toni/Documents/git/tttttx2/2ndMap/Application/src/main/AndroidManifest.xml:44:17-69
 	android:name
@@ -87,42 +87,46 @@ category#android.intent.category.LAUNCHER
 ADDED from /home/toni/Documents/git/tttttx2/2ndMap/Application/src/main/AndroidManifest.xml:45:17-77
 	android:name
 		ADDED from /home/toni/Documents/git/tttttx2/2ndMap/Application/src/main/AndroidManifest.xml:45:27-74
-intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:scheme:google.navigation
-ADDED from /home/toni/Documents/git/tttttx2/2ndMap/Application/src/main/AndroidManifest.xml:47:13-52:29
-action#android.intent.action.VIEW
-ADDED from /home/toni/Documents/git/tttttx2/2ndMap/Application/src/main/AndroidManifest.xml:48:17-68
-	android:name
-		ADDED from /home/toni/Documents/git/tttttx2/2ndMap/Application/src/main/AndroidManifest.xml:48:25-66
 category#android.intent.category.DEFAULT
-ADDED from /home/toni/Documents/git/tttttx2/2ndMap/Application/src/main/AndroidManifest.xml:49:17-75
+ADDED from /home/toni/Documents/git/tttttx2/2ndMap/Application/src/main/AndroidManifest.xml:46:17-76
 	android:name
-		ADDED from /home/toni/Documents/git/tttttx2/2ndMap/Application/src/main/AndroidManifest.xml:49:27-73
+		ADDED from /home/toni/Documents/git/tttttx2/2ndMap/Application/src/main/AndroidManifest.xml:46:27-73
+category#android.intent.category.HOME
+ADDED from /home/toni/Documents/git/tttttx2/2ndMap/Application/src/main/AndroidManifest.xml:47:17-73
+	android:name
+		ADDED from /home/toni/Documents/git/tttttx2/2ndMap/Application/src/main/AndroidManifest.xml:47:27-70
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:scheme:google.navigation
+ADDED from /home/toni/Documents/git/tttttx2/2ndMap/Application/src/main/AndroidManifest.xml:49:13-54:29
+action#android.intent.action.VIEW
+ADDED from /home/toni/Documents/git/tttttx2/2ndMap/Application/src/main/AndroidManifest.xml:50:17-68
+	android:name
+		ADDED from /home/toni/Documents/git/tttttx2/2ndMap/Application/src/main/AndroidManifest.xml:50:25-66
 category#android.intent.category.BROWSABLE
-ADDED from /home/toni/Documents/git/tttttx2/2ndMap/Application/src/main/AndroidManifest.xml:50:17-77
+ADDED from /home/toni/Documents/git/tttttx2/2ndMap/Application/src/main/AndroidManifest.xml:52:17-77
 	android:name
-		ADDED from /home/toni/Documents/git/tttttx2/2ndMap/Application/src/main/AndroidManifest.xml:50:27-75
+		ADDED from /home/toni/Documents/git/tttttx2/2ndMap/Application/src/main/AndroidManifest.xml:52:27-75
 data
-ADDED from /home/toni/Documents/git/tttttx2/2ndMap/Application/src/main/AndroidManifest.xml:51:17-59
+ADDED from /home/toni/Documents/git/tttttx2/2ndMap/Application/src/main/AndroidManifest.xml:53:17-59
 	android:host
-		ADDED from /home/toni/Documents/git/tttttx2/2ndMap/Application/src/main/AndroidManifest.xml:58:21-51
+		ADDED from /home/toni/Documents/git/tttttx2/2ndMap/Application/src/main/AndroidManifest.xml:60:21-51
 	android:scheme
-		ADDED from /home/toni/Documents/git/tttttx2/2ndMap/Application/src/main/AndroidManifest.xml:51:23-57
+		ADDED from /home/toni/Documents/git/tttttx2/2ndMap/Application/src/main/AndroidManifest.xml:53:23-57
 intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:maps.google.com+data:scheme:https
-ADDED from /home/toni/Documents/git/tttttx2/2ndMap/Application/src/main/AndroidManifest.xml:53:13-60:29
+ADDED from /home/toni/Documents/git/tttttx2/2ndMap/Application/src/main/AndroidManifest.xml:55:13-62:29
 intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:maps.google.com+data:scheme:http
-ADDED from /home/toni/Documents/git/tttttx2/2ndMap/Application/src/main/AndroidManifest.xml:61:13-68:29
+ADDED from /home/toni/Documents/git/tttttx2/2ndMap/Application/src/main/AndroidManifest.xml:63:13-70:29
 intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:scheme:geo
-ADDED from /home/toni/Documents/git/tttttx2/2ndMap/Application/src/main/AndroidManifest.xml:69:13-74:29
+ADDED from /home/toni/Documents/git/tttttx2/2ndMap/Application/src/main/AndroidManifest.xml:71:13-76:29
 activity#ch.zeromail.a2ndmap.bluetoothchat.DeviceListActivity
-ADDED from /home/toni/Documents/git/tttttx2/2ndMap/Application/src/main/AndroidManifest.xml:77:9-81:64
+ADDED from /home/toni/Documents/git/tttttx2/2ndMap/Application/src/main/AndroidManifest.xml:79:9-83:64
 	android:label
-		ADDED from /home/toni/Documents/git/tttttx2/2ndMap/Application/src/main/AndroidManifest.xml:80:13-50
+		ADDED from /home/toni/Documents/git/tttttx2/2ndMap/Application/src/main/AndroidManifest.xml:82:13-50
 	android:configChanges
-		ADDED from /home/toni/Documents/git/tttttx2/2ndMap/Application/src/main/AndroidManifest.xml:79:13-63
+		ADDED from /home/toni/Documents/git/tttttx2/2ndMap/Application/src/main/AndroidManifest.xml:81:13-63
 	android:theme
-		ADDED from /home/toni/Documents/git/tttttx2/2ndMap/Application/src/main/AndroidManifest.xml:81:13-61
+		ADDED from /home/toni/Documents/git/tttttx2/2ndMap/Application/src/main/AndroidManifest.xml:83:13-61
 	android:name
-		ADDED from /home/toni/Documents/git/tttttx2/2ndMap/Application/src/main/AndroidManifest.xml:78:13-47
+		ADDED from /home/toni/Documents/git/tttttx2/2ndMap/Application/src/main/AndroidManifest.xml:80:13-47
 uses-sdk
 INJECTED from /home/toni/Documents/git/tttttx2/2ndMap/Application/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /home/toni/Documents/git/tttttx2/2ndMap/Application/src/main/AndroidManifest.xml

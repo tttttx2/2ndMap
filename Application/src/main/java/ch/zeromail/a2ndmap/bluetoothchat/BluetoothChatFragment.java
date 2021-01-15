@@ -63,6 +63,8 @@ public class BluetoothChatFragment extends Fragment {
     private ListView mConversationView;
     private EditText mOutEditText;
     private Button mSendButton;
+    private Boolean reconnectLock = true;
+    private String address = "";
 
     /**
      * Name of the connected device
@@ -312,13 +314,20 @@ public class BluetoothChatFragment extends Fragment {
                         case BluetoothChatService.STATE_CONNECTED:
                             setStatus(getString(R.string.title_connected_to, mConnectedDeviceName));
                             mConversationArrayAdapter.clear();
+                            reconnectLock=false;
                             break;
                         case BluetoothChatService.STATE_CONNECTING:
                             setStatus(R.string.title_connecting);
                             break;
                         case BluetoothChatService.STATE_LISTEN:
+                            setStatus("listening...");
+                            reconnectLock= false;
+                            break;
                         case BluetoothChatService.STATE_NONE:
                             setStatus(R.string.title_not_connected);
+                            if(!reconnectLock){
+                                reConnectDevice();
+                            }
                             break;
                     }
                     break;
@@ -401,10 +410,21 @@ public class BluetoothChatFragment extends Fragment {
             return;
         }
         String address = extras.getString(DeviceListActivity.EXTRA_DEVICE_ADDRESS);
+        this.address = address;
         // Get the BluetoothDevice object
         BluetoothDevice device = mBluetoothAdapter.getRemoteDevice(address);
         // Attempt to connect to the device
         mChatService.connect(device, secure);
+    }
+
+    private void reConnectDevice() {
+        // Get the device MAC address
+        this.reconnectLock=true;
+        String address = this.address;
+        // Get the BluetoothDevice object
+        BluetoothDevice device = mBluetoothAdapter.getRemoteDevice(address);
+        // Attempt to connect to the device
+        mChatService.connect(device, true);
     }
 
     @Override
